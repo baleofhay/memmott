@@ -1,0 +1,196 @@
+/* 
+    Document   : indexlayout
+    Created on : Aug 17, 2012, 9:09:47 AM
+    Author     : jackson
+    Description:
+        Purpose of the stylesheet follows.
+        This stylesheet is to be included on template files that want
+        the same layout as the index 
+
+   To use this stylesheet use the following code to layout the page:
+<LINK rel="stylesheet" type="text/css" href="public/css/indexlayout.css" /> 
+<h2 class="heading1"></h2>
+<p class="box1">
+    
+</p>
+<div class="contactus" onclick="contact();">Request<br>Evaluation</div>
+<div class="shadowbox1"></div><div class="shadowbox2"></div>
+
+<img class="cow1" src="public/images/tablet12.jpg" width="400">
+<img class="cow2" src="public/images/Cow.jpg" width="400">
+<h2 class="heading2">Features:</h2>
+<div class="box2">
+
+</div>
+<span class="learnmore" onclick="window.location('products.php')">
+    Learn More...
+</span>
+
+*/
+
+.heading1{
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .heading2{
+        position: absolute;
+        top: 400px;
+        left: 460px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .heading3{
+        position: absolute;
+        top: 750px;
+        left: 40px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .heading4{
+        position: absolute;
+        top: 1200px;
+        left: 460px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .box1{
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        width: 400px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .box2{
+        position: absolute;
+        top: 450px;
+        right: 40px;
+        width: 400px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .box3{
+        position: absolute;
+        top: 800px;
+        left: 40px;
+        width: 400px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .box4{
+        position: absolute;
+        top: 1250px;
+        right: 40px;
+        width: 400px;
+        color: #393f42;
+        font-family: sans-serif;
+    }
+    .cow1{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .cow2{
+        position: absolute;
+        left: 40px;
+        top: 400px;
+    }
+    .cow3{
+        position: absolute;
+        top: 840px;
+        right: 40px;
+    }
+    .cow4{
+        position: absolute;
+        top: 1300px;
+        left: 40px;
+    }
+    .learnmore{
+        position: absolute;
+        top: 360px;
+        left: 40px;
+        cursor: pointer;
+        color:  #2baaa0;
+    }
+    .shadowbox1{
+        position: absolute;
+        top: 100px;
+        left: 67px;
+        width: 300px;
+        height: 300px;
+        z-index: -10;
+        -moz-transform: rotate(25deg);
+        -webkit-transform: rotate(25deg);
+        -o-transform: rotate(25deg);
+        -ms-transform: rotate(25deg);
+        transform: rotate(25deg);
+        background-color: #f9fad1;
+    }
+    .shadowbox2{
+        position: absolute;
+        top: 450px;
+        right: 75px;
+        width: 300px;
+        height: 300px;
+        z-index: -10;
+        -moz-transform: rotate(145deg);
+        -webkit-transform: rotate(145deg);
+        -o-transform: rotate(145deg);
+        -ms-transform: rotate(145deg);
+        transform: rotate(145deg);
+        background-color: #d9ebf5;
+    }
+    .shadowbox3{
+        position: absolute;
+        top: 800px;
+        left: 67px;
+        width: 300px;
+        height: 300px;
+        z-index: -10;
+        -moz-transform: rotate(25deg);
+        -webkit-transform: rotate(25deg);
+        -o-transform: rotate(25deg);
+        -ms-transform: rotate(25deg);
+        transform: rotate(25deg);
+        background-color: #f9fad1;
+    }
+    .shadowbox4{
+        position: absolute;
+        top: 1250px;
+        right: 75px;
+        width: 300px;
+        height: 300px;
+        z-index: -10;
+        -moz-transform: rotate(145deg);
+        -webkit-transform: rotate(145deg);
+        -o-transform: rotate(145deg);
+        -ms-transform: rotate(145deg);
+        transform: rotate(145deg);
+        background-color: #d9ebf5;
+    }
+    .contactus{
+        position: absolute;
+        top: 300px;
+        right: 75px;
+        width: 100px;
+        height: 50px;
+        background-color: #cefbfb;
+        border: solid 1px #0097e7;
+        color: #0097e7;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 6px;
+        box-shadow: 10px 10px 5px #cfcfd0;
+        padding: .8em 0 0em 0;
+    }
+    .contactus:hover{
+        background-color: #edfbfb;
+    }
+    .contactus:active{
+        box-shadow: 5px 5px 5px #cfcfd0;
+    }
+
